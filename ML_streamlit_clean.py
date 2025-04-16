@@ -11,7 +11,7 @@ import nltk
 from nltk.corpus import stopwords
 from sklearn.feature_extraction import FeatureHasher
 
-
+nltk.download('stopwords')
 try:
     stop_words_EF = stopwords.words('english') + stopwords.words('french')
 except:
