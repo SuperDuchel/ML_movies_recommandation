@@ -22,7 +22,7 @@ except:
 
 # --- Interface Streamlit ---
 st.title("🎬 Duch_Recommandation de films")
-st.image(r"C:\Users\lenovo\Desktop\WCS\proJet2\Image-a-la-une-affiche-film-inspirante.webp")
+st.image(r"https://images.app.goo.gl/S1xiFmJA1dJu42JG7")
 
 # --- Chargement du dataset ---
 df = pd.read_parquet(r"C:\Users\lenovo\Desktop\WCS\proJet2\df_machine_learning.parquet")
