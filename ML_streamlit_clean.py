@@ -25,7 +25,7 @@ st.title("🎬 Duch_Recommandation de films")
 st.image(r"https://images.app.goo.gl/S1xiFmJA1dJu42JG7")
 
 # --- Chargement du dataset ---
-df = pd.read_parquet(r"C:\Users\lenovo\Desktop\WCS\proJet2\df_machine_learning.parquet")
+df = pd.read_parquet(r"df_machine_learning.parquet")
 df = df.reset_index(drop=True)
 
 # --- Prétraitement identique au code ML initial ---
