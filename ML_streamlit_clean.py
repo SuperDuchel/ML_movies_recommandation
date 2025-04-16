@@ -22,10 +22,10 @@ except:
 
 # --- Interface Streamlit ---
 st.title("🎬 Duch_Recommandation de films")
-st.image(r"https://images.app.goo.gl/S1xiFmJA1dJu42JG7")
+st.image(r"https://i.ytimg.com/vi/47D8jsSM7zE/hqdefault.jpg")
 
 # --- Chargement du dataset ---
-df = pd.read_parquet(r"df_machine_learning.parquet")
+df = pd.read_parquet("df_machine_learning.parquet")
 df = df.reset_index(drop=True)
 
 # --- Prétraitement identique au code ML initial ---
